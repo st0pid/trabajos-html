@@ -1,2 +1,4 @@
 # trabajos-html
-si
+Busca ejemplos de aplicaciones o juegos que funcionen con la estructura de cliente servidor en las cuales puedas ejercer tanto de cliente como de servidor.
+
+Un ejemplo claro de una aplicación con estructura cliente-servidor en la que los usuarios pueden actuar en ambos roles es Minecraft (Java Edition). El cliente es el juego que usas para conectarte, mientras que el servidor es una aplicación separada que puedes descargar desde el sitio web oficial de Minecraft y ejecutar en tu propio ordenador. Este servidor gestiona la comunidad de juego y la comunicación entre los jugadores. Puedes conectarte desde el cliente utilizando la IP local (o "localhost" si estás en el mismo dispositivo), y otros jugadores pueden unirse desde Internet si el router está correctamente configurado con la redirección de puertos (puerto 25565). Esta configuración permite aprender conceptos importantes como direcciones IP, traducción de direcciones de red (NAT), puertos y arquitectura de red de forma práctica y útil.
