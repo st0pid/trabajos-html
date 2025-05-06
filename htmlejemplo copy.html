@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Lista de compra para PC</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header, section {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        h1, h2 {
+            text-align: center;
+            color: #2c3e50;
+        }
+
+        ul, ol {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            list-style-position: inside;
+            box-shadow: 0 0 10px rgba(0,0,0,0.05);
+            margin-bottom: 30px;
+        }
+
+        li {
+            padding: 5px 0;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+            background-color: #fff;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 0 10px rgba(0,0,0,0.05);
+        }
+
+        table th, table td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: center;
+        }
+
+        table th {
+            background-color: #2c3e50;
+            color: white;
+        }
+
+        form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 30px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.05);
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            margin-top: 15px;
+            font-weight: bold;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #bbb;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #2ecc71;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 1em;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #27ae60;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Lista de compra para PC</h1>
+</header>
+
+<section>
+    <h2>Componentes del PC (desordenada)</h2>
+    <ul>
+        <li>Procesador (CPU)</li>
+        <li>Tarjeta gráfica (GPU)</li>
+        <li>Placa base (Motherboard)</li>
+        <li>Memoria RAM</li>
+        <li>Almacenamiento (SSD/HDD)</li>
+        <li>Fuente de alimentación (PSU)</li>
+        <li>Gabinete</li>
+        <li>Monitor</li>
+        <li>Teclado y ratón</li>
+    </ul>
+
+    <h2>Pasos para ensamblar un PC (ordenada)</h2>
+    <ol>
+        <li>Coloca el CPU en la placa madre</li>
+        <li>Instalar la memoria RAM</li>
+        <li>Montar la placa base en la caja</li>
+        <li>Conectar la fuente de alimentación</li>
+        <li>Instalar la tarjeta gráfica</li>
+        <li>Conecta todo al almacenamiento</li>
+        <li>Verificar todas las conexiones</li>
+        <li>Encender y probar el sistema</li>
+    </ol>
+
+    <h2>Tabla de precios de los componentes</h2>
+    <table>
+        <tr>
+            <th>Componente</th>
+            <th>Precio</th>
+            <th>Cantidad</th>
+        </tr>
+        <tr>
+            <td>Procesador (Ryzen 5 9800X3D)</td>
+            <td>$540.00</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>Tarjeta gráfica (RTX 5090)</td>
+            <td>💸 Eres demasiado pobre</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>Memoria RAM (16GB DDR5)</td>
+            <td>$105.00</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>Almacenamiento (SSD 1TB)</td>
+            <td>$120.00</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>Fuente de alimentación (1000W)</td>
+            <td>$170.00</td>
+            <td>1</td>
+        </tr>
+    </table>
+
+    <h2>Formulario de contacto</h2>
+    <form action="procesar.php" method="POST">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="3"></textarea>
+
+        <button type="submit">Enviar</button>
+    </form>
+</section>
+
+</body>
+</html>
